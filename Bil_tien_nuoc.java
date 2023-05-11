@@ -6,6 +6,7 @@ package com.mycompany.doannhom;
 import java.util.*;
 public class Bil_tien_nuoc 
 {
+    // kietttttttttttttttttttttttttttttttttttttt
 
 //    private static int number;
 String ma_khach_hang;
