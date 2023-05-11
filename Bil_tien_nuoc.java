@@ -58,7 +58,7 @@ void input()
     Scanner sc=new Scanner(System.in);
     System.out.println("nhap loai khach hang: "); loai_khach_hang=sc.nextLine();
     System.out.println("nhap ma khach hang: "); ma_khach_hang=sc.nextLine();
-    System.out.println("nhap so nuoc cudsgiuhgedg: "); so_nuoc_cu=sc.nextDouble();
+    System.out.println("nhap so nuoc cu: "); so_nuoc_cu=sc.nextDouble();
     System.out.println("nhap so nuoc moi: "); so_nuoc_moi=sc.nextDouble();
 }
 public double price()
