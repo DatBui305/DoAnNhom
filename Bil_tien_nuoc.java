@@ -114,7 +114,7 @@ class list_bill
    {
       for(int i=0;i<arr.length;i++)
       {
-          System.out.println("danh sach tinh tien nuoc la:---------------------------- ");
+          System.out.println("danh sach tinh tien nuoc la: ");
           arr[i].output();
       }
    }
