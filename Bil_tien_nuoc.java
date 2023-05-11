@@ -6,7 +6,6 @@ package com.mycompany.doannhom;
 import java.util.*;
 public class Bil_tien_nuoc 
 {
-    // kietttttttttttttttttttttttttttttttttttttt
 
 //    private static int number;
 String ma_khach_hang;
@@ -119,17 +118,17 @@ class list_bill
           arr[i].output();
       }
    }
-   double tim_thanh_toan_nho_nhat()
+   double tim_thanh_toan_lon_nhat()
    {
-    double min=arr[0].payment();
+    double max=0;
        for(int i=0;i<arr.length;i++)
        {
-           if(min>arr[i].payment())
+           if(max<arr[i].payment())
            {
-               min = arr[i].payment();
+               max= arr[i].payment();
            }
        }
-       return min;
+       return max;
    }
 
 }
